@@ -1,0 +1,13 @@
+fn = str(input())
+ln = str(input())
+s = str(input())
+fsub = str(input())
+
+fulln = f"{fn} {ln}"
+cc = len(fn + ln)
+print("Formatted Output: ")
+print("Name: ", fulln)
+print("Name Code: ", fulln.upper())
+print("Section: ", s.upper())
+print("Favorite Subject: ", fsub)
+print("Character count: ", cc)
